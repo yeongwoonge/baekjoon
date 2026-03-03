@@ -1,8 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text; 
-using System.Threading.Tasks;
 
 namespace baekjoon_solution
 {
@@ -10,10 +7,7 @@ namespace baekjoon_solution
     {
         static void Main(string[] args)
         {
-            StringBuilder sb = new StringBuilder(); // [출력용]
-            //int a = int.Parse(Console.ReadLine()); // [입력용 숫자 하나]
-            //int[] a = Array.ConvertAll(Console.ReadLine().Split(), int.Parse); // [입력용 숫자 여러개]
-            //string[] a = Console.ReadLine().Split(); // [입력용 문자열]
+            StringBuilder sb = new StringBuilder(); 
             // ------------------------------------------
             int a = int.Parse(Console.ReadLine());
 
@@ -42,7 +36,6 @@ namespace baekjoon_solution
             queen(0);
             sb.Append(cnt);
             // ------------------------------------------
-            // sb.Append(); [제출용]
             Console.WriteLine(sb);
         }
     }
